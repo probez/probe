@@ -20,7 +20,7 @@ public class GetWordFile {
 
 	private Set<String> inputBanWord() throws Exception {
 		Set<String> set = null;
-		File text = new File("D:\\QcUsers\\Win7\\Administrator\\Desktop\\色情类.txt");
+		File text = new File("D:\\QcUsers\\Win7\\Administrator\\Desktop\\敏感词库\\色情类.txt");
 		InputStreamReader read = new InputStreamReader(new FileInputStream(text), encode);
 		try {
 			if (text.isFile() && text.exists()) {
